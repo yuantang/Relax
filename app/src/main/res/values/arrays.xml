@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="noise_name">
+        <item>雨打芭蕉</item>
+        <item>春雷阵阵</item>
+        <item>温馨小屋</item>
+        <item>车流涌动</item>
+        <item>微风徐徐</item>
+        <item>林中漫步</item>
+        <item>红泥小炉</item>
+        <item>浪花朵朵</item>
+        <item>火车远行</item>
+        <item>夜深人静</item>
+        <item>咖啡屋内</item>
+        <item>纯白噪音</item>
+    </string-array>
+    <string-array name="noise_icon">
+        <item>&#xe61c;</item>
+        <item>&#xe75b;</item>
+        <item>&#xea99;</item>
+        <item>&#xe62d;</item>
+        <item>&#xe620;</item>
+        <item>&#xe635;</item>
+        <item>&#xe601;</item>
+        <item>&#xe7d2;</item>
+        <item>&#xe605;</item>
+        <item>&#xe600;</item>
+        <item>&#xe61e;</item>
+        <item>&#xe680;</item>
+        <item>&#xe63b;</item>
+        <item>&#xe66a;</item>
+    </string-array>
+    <string-array name="noise_color">
+        <item>#2196F3</item>
+        <item>#673AB7</item>
+        <item>#E91E63</item>
+        <item>#009688</item>
+        <item>#4CAF50</item>
+        <item>#8BC34A</item>
+        <item>#8BC34A</item>
+        <item>#CDDC39</item>
+        <item>#FFC107</item>
+        <item>#FF9800</item>
+        <item>#FF5722</item>
+        <item>#795548</item>
+        <item>#9C27B0</item>
+        <item>#3F51B5</item>
+    </string-array>
+<string-array name="timer_time">
+    <item>No Timer</item>
+    <item>00:01:00</item>
+    <item>00:03:00</item>
+    <item>00:05:00</item>
+    <item>00:10:00</item>
+    <item>00:15:00</item>
+    <item>00:20:00</item>
+    <item>00:30:00</item>
+    <item>00:40:00</item>
+    <item>00:45:00</item>
+    <item>00:50:00</item>
+    <item>01:00:00</item>
+    <item>02:00:00</item>
+    <item>04:00:00</item>
+    <item>08:00:00</item>
+</string-array>
+    <string-array name="timer_name">
+        <item>00:00:00</item>
+        <item>00:01:00</item>
+        <item>00:03:00</item>
+        <item>00:05:00</item>
+        <item>00:10:00</item>
+        <item>00:15:00</item>
+        <item>00:20:00</item>
+        <item>00:30:00</item>
+        <item>00:40:00</item>
+        <item>00:45:00</item>
+        <item>00:50:00</item>
+        <item>01:00:00</item>
+        <item>02:00:00</item>
+        <item>04:00:00</item>
+        <item>08:00:00</item>
+    </string-array>
+
+</resources>

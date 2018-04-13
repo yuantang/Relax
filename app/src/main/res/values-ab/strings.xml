@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">WellRelax</string>
+
+    <string name="one">&#xe61c;</string>
+    <string name="two">&#xe75b;</string>
+    <string name="three">&#xea99;</string>
+    <string name="four">&#xe62d;</string>
+    <string name="five">&#xe620;</string>
+    <string name="six">&#xe635;</string>
+    <string name="seven">&#xe601;</string>
+    <string name="eight">&#xe7d2;</string>
+    <string name="nine">&#xe605;</string>
+    <string name="ten">&#xe600;</string>
+    <string name="eleven">&#xe61e;</string>
+    <string name="twelve">&#xe680;</string>
+    <string name="thirteen">&#xe63b;</string>
+    <string name="fourteen">&#xe66a;</string>
+    <string name="yi">&#xe622;</string>
+    <string name="er">&#xe70a;</string>
+    <string name="san">&#xe62f;</string>
+    <string name="si">&#xe630;</string>
+    <string name="wu">&#xe69b;</string>
+    <string name="liu">&#xe69c;</string>
+    <string name="qi">&#xe62c;</string>
+    <string name="ba">&#xe69e;</string>
+    <string name="jiu">&#xe62a;</string>
+    <string name="ling">&#xe621;</string>
+    <string name="maohao">&#xe603;</string>
+    <string name="play">&#xe6ec;</string>
+    <string name="pause">&#xe788;</string>
+    <string name="timer">&#xe602;</string>
+    <string name="favorites">&#xe616;</string>
+    <string name="close">&#10006;</string>
+    <string name="right">&#10004;</string>
+
+
+    <string name="be_relax">Be Relax!</string>
+    <string name="is_running">Running...</string>
+    <string name="rains_txt">Rain</string>
+    <string name="thunder_txt">Thunder</string>
+    <string name="cabin_txt">Cottage</string>
+    <string name="car_txt">CarFlow</string>
+    <string name="wind_txt">Breeze</string>
+    <string name="tree_txt">Woods</string>
+    <string name="stream">Creek</string>
+    <string name="light_rain_txr">Drizzle</string>
+    <string name="stove_txt">Andiron</string>
+    <string name="waves_txt">Spray</string>
+    <string name="train_txt">Train</string>
+    <string name="night_txt">Night</string>
+    <string name="coffee_txt">Coffee</string>
+    <string name="noise_txt">Noise</string>
+    <string name="my_favorites_txt">MyFavorites</string>
+    <string name="add_favorites_txt">AddFavorite</string>
+    <string name="stop_txt">Stop</string>
+    <string name="timer_txt">Timer</string>
+    <string name="favorites_txt">favorites</string>
+    <string name="type_mix_name">Type mix name</string>
+</resources>

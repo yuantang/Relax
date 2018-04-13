@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.coder.relax.UI.Rainbow
+        android:layout_margin="5dp"
+        android:id="@+id/rainbow"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        >
+    </com.coder.relax.UI.Rainbow>
+    <TextView
+        android:id="@+id/text_edit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="60dp"
+        android:layout_marginLeft="8dp"
+        android:focusable="true"
+        android:layout_centerVertical="true"
+        android:gravity="center|left"
+        android:focusableInTouchMode="true"
+        android:cursorVisible="false"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        />
+    <com.coder.relax.UI.IconFontTextView
+        android:id="@+id/delete"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="26dp"
+        android:text="@string/close"
+        />
+
+
+</RelativeLayout>

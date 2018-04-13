@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coder.relax.UI.MySeekBar
+    android:id="@+id/seek_bar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/one"
+    android:gravity="center_horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <com.coder.relax.UI.CHTextView
+            android:id="@+id/ch_txt"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="雨打芭蕉"
+            android:textColor="@color/white"/>
+        <com.coder.relax.UI.IconFontTextView
+            android:id="@+id/icon_txt"
+            android:textSize="26dp"
+            android:paddingLeft="5dp"
+            android:text="@string/one"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.coder.relax.UI.MySeekBar>

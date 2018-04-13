@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">	#36648B</color>
+    <color name="colorPrimaryDark">#36648B</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="gray">#888888</color>
+    <color name="rippelColor">#FFFFFF</color>
+    <!--<color name="one">#7C846B</color>-->
+    <!--<color name="two">#9C7264</color>-->
+    <!--<color name="three">#707253</color>-->
+    <!--<color name="four">#516875</color>-->
+    <!--<color name="five">#5E6941</color>-->
+    <!--<color name="six">#534943</color>-->
+    <!--<color name="seven">#A69A6C</color>-->
+    <!--<color name="eight">#A17055</color>-->
+    <!--<color name="nine">#808A74</color>-->
+    <!--<color name="ten">#C9AE9B</color>-->
+    <!--<color name="eleven">#744B38</color>-->
+    <!--<color name="twelve">#C79A77</color>-->
+    <!--<color name="thirteen">#594F6E</color>-->
+    <!--<color name="fourteen">#617C8F</color>-->
+    <!--<color name="fifteen">#715560</color>-->
+    <!--<color name="sixteen">#54512a</color>-->
+    <color name="one">#1E61EE</color>
+    <color name="two">#673AB7</color>
+    <color name="three">#E91E63</color>
+    <color name="four">#009688</color>
+    <color name="five">#2196F3</color>
+    <color name="six">#37B456</color>
+    <color name="seven">#8BC34A</color>
+    <color name="eight">#CDDC39</color>
+    <color name="nine">#FFC107</color>
+    <color name="ten">#FF9800</color>
+    <color name="eleven">#FF5722</color>
+    <color name="twelve">#404040</color>
+    <color name="thirteen">#603912</color>
+    <color name="fourteen">#3F51B5</color>
+    <color name="fifteen">#F44336</color>
+    <color name="sixteen">#9E9E9E</color>
+
+    <color name="white">#ffffff</color>
+
+</resources>
