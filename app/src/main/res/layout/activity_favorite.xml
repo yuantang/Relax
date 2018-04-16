@@ -5,7 +5,7 @@
     <RelativeLayout
         android:id="@+id/top"
         android:layout_width="match_parent"
-        android:layout_height="160dp">
+        android:layout_height="150dp">
         <TextView
             android:layout_marginTop="50dp"
             android:layout_centerHorizontal="true"
@@ -64,8 +64,24 @@
 
     </RelativeLayout>
     <android.support.v7.widget.RecyclerView
+        android:layout_above="@+id/adView"
         android:id="@+id/recycle"
         android:layout_below="@+id/add_fav_rly"
         android:layout_width="match_parent"
         android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4727610544131155/5036364875"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        >
+    </com.google.android.gms.ads.AdView>
+
 </RelativeLayout>

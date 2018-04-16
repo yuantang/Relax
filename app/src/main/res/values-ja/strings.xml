@@ -34,26 +34,28 @@
     <string name="right">&#10004;</string>
 
 
-    <string name="be_relax">请放松自己!</string>
-    <string name="is_running">正在运行...</string>
-    <string name="rains_txt">雨打芭蕉</string>
-    <string name="thunder_txt">春雷阵阵</string>
-    <string name="cabin_txt">温馨小屋</string>
-    <string name="car_txt">车流涌动</string>
-    <string name="wind_txt">微风徐徐</string>
-    <string name="tree_txt">林中漫步</string>
-    <string name="stream">小河淌淌</string>
-    <string name="light_rain_txr">雨意漫布</string>
-    <string name="stove_txt">红泥小炉</string>
-    <string name="waves_txt">浪花朵朵</string>
-    <string name="train_txt">火车远行</string>
-    <string name="night_txt">夜深人静</string>
-    <string name="coffee_txt">咖啡屋内</string>
-    <string name="noise_txt">纯白噪音</string>
-    <string name="my_favorites_txt">我的收藏</string>
-    <string name="add_favorites_txt">添加收藏</string>
-    <string name="stop_txt">停止</string>
-    <string name="timer_txt">计时器</string>
-    <string name="favorites_txt">收藏夹</string>
-    <string name="type_mix_name">输入混音名称</string>
+    <string name="be_relax">リラックス！</string>
+    <string name="is_running">実行中...</string>
+    <string name="rains_txt">レインバナナ</string>
+    <string name="thunder_txt">春の雷</string>
+    <string name="cabin_txt">コテージ</string>
+    <string name="car_txt">車の流れ</string>
+    <string name="wind_txt">ブリーズ</string>
+    <string name="tree_txt">森の中を歩く</string>
+    <string name="stream">リトルリバー</string>
+    <string name="light_rain_txr">霧雨</string>
+    <string name="stove_txt">アンドロン</string>
+    <string name="waves_txt">スプレー</string>
+    <string name="train_txt">トレーン</string>
+    <string name="night_txt">ナイト</string>
+    <string name="coffee_txt">コーヒー</string>
+    <string name="noise_txt">ノイズ</string>
+    <string name="my_favorites_txt">私のお気に入り</string>
+    <string name="add_favorites_txt">お気に入りを追加</string>
+    <string name="stop_txt">やめる</string>
+    <string name="timer_txt">タイマー</string>
+    <string name="favorites_txt">お気に入り</string>
+    <string name="type_mix_name">タイプミックス名</string>
+    <string name="set_timer_txt">タイマの長さの設定</string>
+
 </resources>

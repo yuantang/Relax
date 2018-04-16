@@ -80,7 +80,6 @@ public class MainActivity extends Activity {
     TextView mTimer;
 
     VoiceController mVoiceController;
-
     Handler mHandler;
     TickTimer timer;
 
@@ -88,6 +87,9 @@ public class MainActivity extends Activity {
     @BindView(R.id.add)
     TextView add;
     ArrayList<FavoriteBean> mFavorite = new ArrayList<>();
+    String times[]={"00:00:00","00:01:00","00:03:00","00:05:00","00:10:00","00:15:00",
+            "00:20:00","00:30:00","00:40:00","00:45:00","00:50:00","01:00:00","02:00:00",
+            "04:00:00","06:00:00","08:00:00"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -276,12 +278,11 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 new AlertDialog.Builder(MainActivity.this)
-                        .setTitle("设置定时器时长")
-                        .setItems(getResources().getStringArray(R.array.timer_time),
+                        .setTitle(R.string.set_timer_txt)
+                        .setItems(times,
                                 new DialogInterface.OnClickListener() {
                                     @Override
                                     public void onClick(DialogInterface dialog, int which) {
-                                        String[] times = getResources().getStringArray(R.array.timer_name);
                                         controlTimeView(times[which]);
                                     }
                                 }).show();

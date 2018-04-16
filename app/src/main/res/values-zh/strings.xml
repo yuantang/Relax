@@ -56,4 +56,5 @@
     <string name="timer_txt">计时器</string>
     <string name="favorites_txt">收藏夹</string>
     <string name="type_mix_name">输入混音名称</string>
+    <string name="set_timer_txt">设置定时器时长</string>
 </resources>

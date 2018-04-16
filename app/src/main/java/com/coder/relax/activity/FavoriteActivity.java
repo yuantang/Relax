@@ -18,6 +18,9 @@ import com.coder.relax.UI.IconFontTextView;
 import com.coder.relax.UI.Rainbow;
 import com.coder.relax.bean.FavoriteBean;
 import com.coder.relax.utils.InputUtils;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -50,7 +53,7 @@ public class FavoriteActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_choosesave);
+        setContentView(R.layout.activity_favorite);
         ButterKnife.bind(this);
         mCache = ACache.get(this);
         mList = (ArrayList<FavoriteBean>) mCache.getAsObject(Constant.CACHE_KEY_FAV);
@@ -66,6 +69,7 @@ public class FavoriteActivity extends Activity {
             InputUtils.hidekeybord(recycle);
         }
         initView();
+        addAdView();
     }
 
     private void initView() {
@@ -91,5 +95,42 @@ public class FavoriteActivity extends Activity {
         mAdapter.notifyDataSetChanged();
         addFavRly.setVisibility(View.GONE);
         InputUtils.hidekeybord(addFavNameEdit);
+    }
+
+
+    private void addAdView(){
+        final AdView adView=findViewById(R.id.adView);
+        if (adView==null){
+            return;
+        }
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
+        adView.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                // Code to be executed when an ad finishes loading.
+                adView.setVisibility(View.VISIBLE);
+            }
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+                // Code to be executed when an ad request fails.
+                adView.setVisibility(View.GONE);
+            }
+            @Override
+            public void onAdOpened() {
+                // Code to be executed when an ad opens an overlay that
+                // covers the screen.
+            }
+            @Override
+            public void onAdLeftApplication() {
+                // Code to be executed when the user has left the app.
+            }
+            @Override
+            public void onAdClosed() {
+                // Code to be executed when when the user is about to return
+                // to the app after tapping on an ad.
+                adView.setVisibility(View.GONE);
+            }
+        });
     }
 }

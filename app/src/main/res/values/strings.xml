@@ -56,4 +56,5 @@
     <string name="timer_txt">Timer</string>
     <string name="favorites_txt">favorites</string>
     <string name="type_mix_name">Type mix name</string>
+    <string name="set_timer_txt">设置定时器时长</string>
 </resources>
