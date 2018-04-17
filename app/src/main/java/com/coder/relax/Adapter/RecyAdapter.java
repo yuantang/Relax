@@ -7,12 +7,12 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.coder.relax.Constant;
 import com.coder.relax.Module.ACache;
 import com.coder.relax.R;
-import com.coder.relax.UI.IconFontTextView;
 import com.coder.relax.UI.Rainbow;
 import com.coder.relax.activity.FavoriteActivity;
 import com.coder.relax.bean.FavoriteBean;
@@ -111,7 +111,7 @@ public class RecyAdapter extends RecyclerView.Adapter {
         @BindView(R.id.rainbow)
         Rainbow rainbow;
         @BindView(R.id.delete)
-        IconFontTextView delete;
+        ImageView delete;
         @BindView(R.id.text_edit)
         TextView name;
 

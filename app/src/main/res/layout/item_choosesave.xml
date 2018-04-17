@@ -25,16 +25,14 @@
         android:textSize="18sp"
         android:textColor="@color/white"
         />
-    <com.coder.relax.UI.IconFontTextView
+    <ImageView
         android:id="@+id/delete"
         android:layout_marginRight="30dp"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
-        android:textSize="26dp"
-        android:text="@string/close"
+        android:src="@mipmap/icon_close"
         />
 
 

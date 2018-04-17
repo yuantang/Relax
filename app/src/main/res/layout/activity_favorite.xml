@@ -50,7 +50,7 @@
             android:maxLength="12"
             android:hint="@string/type_mix_name"
             />
-        <com.coder.relax.UI.IconFontTextView
+        <ImageView
             android:id="@+id/add_fav_img"
             android:textSize="24dp"
             android:layout_marginRight="30dp"
@@ -58,9 +58,8 @@
             android:layout_centerVertical="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/right"
-            android:textColor="@color/white"
-            />
+            android:src="@mipmap/icon_right"
+             />
 
     </RelativeLayout>
     <android.support.v7.widget.RecyclerView

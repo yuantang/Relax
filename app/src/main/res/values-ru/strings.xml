@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">WellRelax</string>
+
+    <string name="one">&#xe61c;</string>
+    <string name="two">&#xe75b;</string>
+    <string name="three">&#xea99;</string>
+    <string name="four">&#xe62d;</string>
+    <string name="five">&#xe620;</string>
+    <string name="six">&#xe635;</string>
+    <string name="seven">&#xe601;</string>
+    <string name="eight">&#xe7d2;</string>
+    <string name="nine">&#xe605;</string>
+    <string name="ten">&#xe600;</string>
+    <string name="eleven">&#xe61e;</string>
+    <string name="twelve">&#xe680;</string>
+    <string name="thirteen">&#xe63b;</string>
+    <string name="fourteen">&#xe66a;</string>
+    <string name="yi">&#xe622;</string>
+    <string name="er">&#xe70a;</string>
+    <string name="san">&#xe62f;</string>
+    <string name="si">&#xe630;</string>
+    <string name="wu">&#xe69b;</string>
+    <string name="liu">&#xe69c;</string>
+    <string name="qi">&#xe62c;</string>
+    <string name="ba">&#xe69e;</string>
+    <string name="jiu">&#xe62a;</string>
+    <string name="ling">&#xe621;</string>
+    <string name="maohao">&#xe603;</string>
+    <string name="play">&#xe6ec;</string>
+    <string name="pause">&#xe788;</string>
+    <string name="timer">&#xe602;</string>
+    <string name="favorites">&#xe616;</string>
+    <string name="close">&#10006;</string>
+    <string name="right">&#10004;</string>
+
+
+    <string name="be_relax">Будьте Relax!</string>
+    <string name="is_running">Запуск ...</string>
+    <string name="rains_txt">дождь</string>
+    <string name="thunder_txt">гром</string>
+    <string name="cabin_txt">коттедж</string>
+    <string name="car_txt">автомобиль</string>
+    <string name="wind_txt">ветер</string>
+    <string name="tree_txt">дерево</string>
+    <string name="stream">ручей</string>
+    <string name="light_rain_txr">изморось</string>
+    <string name="stove_txt">камин</string>
+    <string name="waves_txt">Спрей</string>
+    <string name="train_txt">Поезд</string>
+    <string name="night_txt">Ночь</string>
+    <string name="coffee_txt">Кофе</string>
+    <string name="noise_txt">Шум</string>
+    <string name="my_favorites_txt">мои любимые</string>
+    <string name="add_favorites_txt">Добавить в избранное</string>
+    <string name="stop_txt">Стоп</string>
+    <string name="timer_txt">таймер</string>
+    <string name="favorites_txt">избранное</string>
+    <string name="type_mix_name">Название типа mix</string>
+    <string name="set_timer_txt">Установка длины таймера</string>
+</resources>

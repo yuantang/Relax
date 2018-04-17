@@ -7,6 +7,7 @@ import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
@@ -14,7 +15,6 @@ import com.coder.relax.Adapter.RecyAdapter;
 import com.coder.relax.Constant;
 import com.coder.relax.Module.ACache;
 import com.coder.relax.R;
-import com.coder.relax.UI.IconFontTextView;
 import com.coder.relax.UI.Rainbow;
 import com.coder.relax.bean.FavoriteBean;
 import com.coder.relax.utils.InputUtils;
@@ -44,7 +44,7 @@ public class FavoriteActivity extends Activity {
     @BindView(R.id.rainbow)
     Rainbow rainbow;
     @BindView(R.id.add_fav_img)
-    IconFontTextView addFavImg;
+    ImageView addFavImg;
     @BindView(R.id.add_fav_rly)
     RelativeLayout addFavRly;
     private ACache mCache;
@@ -69,7 +69,7 @@ public class FavoriteActivity extends Activity {
             InputUtils.hidekeybord(recycle);
         }
         initView();
-        addAdView();
+//        addAdView();
     }
 
     private void initView() {

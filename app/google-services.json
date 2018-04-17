@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "246519927217",
+    "firebase_url": "https://wellrelax-c15c0.firebaseio.com",
+    "project_id": "wellrelax-c15c0",
+    "storage_bucket": "wellrelax-c15c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246519927217:android:72cb7506653ee13b",
+        "android_client_info": {
+          "package_name": "com.coder.relax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246519927217-u684nkon1a82d5p5nmreclc676rtmfrb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6k8KKQxqxgOGa8pf2UL85u6nUrBjNW4s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

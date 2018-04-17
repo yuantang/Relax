@@ -29,6 +29,8 @@ import com.coder.relax.business.DecSecond;
 import com.coder.relax.business.Timer.TickTimer;
 import com.coder.relax.business.Timer.TimeSpan;
 import com.coder.relax.business.VoiceController;
+import com.coder.relax.utils.AdUtils;
+import com.google.android.gms.ads.AdView;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -101,7 +103,6 @@ public class MainActivity extends Activity {
 
         mVoiceController = new VoiceController();
         mVoiceController.init(this);
-
         mHandler = new Handler();
         initEvent();
 
@@ -304,9 +305,9 @@ public class MainActivity extends Activity {
                 return false;
             }
         });
-
+        AdView adView=findViewById(R.id.adView);
+        AdUtils.firebaseConfigAdView(this,adView);
     }
-
 
     @TargetApi(19)
     private void setTranslucentStatus(boolean on) {
